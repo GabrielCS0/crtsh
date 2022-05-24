@@ -7,3 +7,9 @@ parser.add_argument(
     help = 'The domain to search.',
     required = True
 )
+
+parser.add_argument(
+    '-o', '--output',
+    help = 'Save the results to text file.',
+    dest = 'output_file'
+)
