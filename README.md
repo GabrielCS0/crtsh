@@ -41,6 +41,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
+## Usage
 
-More features will be added soon.
+Short Form    | Long Form     | Description
+------------- | ------------- |-------------
+-h            | --help        | Show a help message.
+-d            | --domain      | The domain to search.
+-o            | --output      | The text file to save the results.
